@@ -8,14 +8,14 @@ tags:
   - nodejs
 last_modified_at: 2019-11-08T01:07
 ---
-
+```
 git
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/notapark/testApp.git
 git push -u origin master
-
+```
 1. 개요
 - 구글 크롬 웹 브라우저에 탑재된 V8자바스크립트엔진 > 브라우저가 아닌 곳에서 사용 가능 하도록 만듬
 - 이벤트 기반 비동기 처리 : 싱글스레드가 비동기로 처리 순서에 상관없이 처리 가능
@@ -37,4 +37,13 @@ console.log('hello world');
 function test() {
   console.log("notice the blank line before this fun  tion?");
 }
+```
+
+```
+
+app.set('port', process.env.PORT || 80);
+
+var server = app.listen(app.get('port'), function() {
+  console.log('서버가 ' + server.address().port + ' 포트에서 실행중!!!');
+});
 ```
