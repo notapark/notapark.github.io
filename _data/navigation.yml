@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "블로그 방문하기"
-    url: {{ page }}
-  - title: "Categories"
-    url: /categories/
-  - title: "AI"
-    url: /categories/AI/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Guide"
+    url: /guide/
+  - title: "Compliance"
+    url: /compliance/
+  - title: "Blog"
+    url: /blog/
+  - title: "GitHub"
+    url: "https://github.com/notapark/notapark.github.io"
